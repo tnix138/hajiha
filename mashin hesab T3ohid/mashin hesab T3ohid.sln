@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mashin hesab T3ohid", "mashin hesab T3ohid\mashin hesab T3ohid.csproj", "{AE602772-E5EE-44C8-B633-2C89B304F6AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mashin hesab Tohid", "mashin hesab T3ohid\mashin hesab Tohid.csproj", "{AE602772-E5EE-44C8-B633-2C89B304F6AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

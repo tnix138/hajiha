@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace mashin_hesab_T3ohid
+namespace mashin_hesab_Tohid
 {
     static class Program
     {

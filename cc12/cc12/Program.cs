@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace cc12
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(1243);
+            Console.WriteLine(123);
         }
     }
 }

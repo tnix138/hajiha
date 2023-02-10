@@ -38,6 +38,7 @@
             this.lblwin = new System.Windows.Forms.Label();
             this.scorebot = new System.Windows.Forms.Label();
             this.scoreplyr = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // sanj
@@ -133,11 +134,23 @@
             this.scoreplyr.TabIndex = 9;
             this.scoreplyr.Text = "0";
             // 
+            // listBox1
+            // 
+            this.listBox1.Font = new System.Drawing.Font("B Nazanin", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 47;
+            this.listBox1.Location = new System.Drawing.Point(342, 6);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.listBox1.Size = new System.Drawing.Size(223, 286);
+            this.listBox1.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(305, 306);
+            this.ClientSize = new System.Drawing.Size(566, 323);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.scoreplyr);
             this.Controls.Add(this.scorebot);
             this.Controls.Add(this.lblwin);
@@ -168,6 +181,7 @@
         private System.Windows.Forms.Label lblwin;
         private System.Windows.Forms.Label scorebot;
         private System.Windows.Forms.Label scoreplyr;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

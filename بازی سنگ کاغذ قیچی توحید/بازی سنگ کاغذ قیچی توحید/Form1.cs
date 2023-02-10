@@ -30,15 +30,20 @@ namespace بازی_سنگ_کاغذ_قیچی_توحید
                 case 1:
                     ChoseBot.Text = "انتخاب ربات : " + "قیچی";
                     lblwin.Text = "بازی مساوری شد";
+                    listBox1.Items.Insert(0, "بازی مساوری شد");
                     break;
                 case 2:
                     ChoseBot.Text = "انتخاب ربات : " + "سنگ";
                     lblwin.Text = "بازیکن بازنده شد";
+                    listBox1.Items.Insert(0, "بازیکن بازنده شد");
+
 
                     break;
                 case 3:
                     ChoseBot.Text = "انتخاب ربات : " + "کاغذ";
                     lblwin.Text = "بازیکن برنده شد";
+                    listBox1.Items.Insert(0, "بازیکن برنده شد");
+
                     break;
 
             }
@@ -52,19 +57,24 @@ namespace بازی_سنگ_کاغذ_قیچی_توحید
             ChosePlayer.Text = "انتخاب شما : " + "کاغذ";
             int randnum = rand.Next(100, 4000);
             compchoise = (randnum % 3) + 1;
+
             switch (compchoise)
             {
                 case 1:
                     ChoseBot.Text = "انتخاب ربات : " + "کاغذ";
                     lblwin.Text = "بازی مساوری شد";
+                    listBox1.Items.Insert(0, "بازی مساوری شد");                  
                     break;
                 case 2:
                     ChoseBot.Text = "انتخاب ربات : " + "قیچی";
                     lblwin.Text = "بازیکن بازنده شد";
+                    listBox1.Items.Insert(0, "بازیکن بازنده شد");
                     break;
                 case 3:
                     ChoseBot.Text = "انتخاب ربات : " + "سنگ";
                     lblwin.Text = "بازیکن برنده شد";
+                    listBox1.Items.Insert(0, "بازیکن برنده شد");
+
                     break;
 
             }
@@ -82,14 +92,19 @@ namespace بازی_سنگ_کاغذ_قیچی_توحید
                 case 1:
                     ChoseBot.Text = "انتخاب ربات : " + "سنگ";
                     lblwin.Text = "بازی مساوری شد";
+                    listBox1.Items.Insert(0, "بازی مساوری شد");
+
                     break;
                 case 2:
                     ChoseBot.Text = "انتخاب ربات : " + "کاغذ";
                     lblwin.Text = "بازیکن بازنده شد";
+                    listBox1.Items.Insert(0, "بازیکن بازنده شد");
                     break;
                 case 3:
                     ChoseBot.Text = "انتخاب ربات : " + "قیچی";
                     lblwin.Text = "بازیکن برنده شد";
+                    listBox1.Items.Insert(0, "بازیکن برنده شد");
+
                     break;
 
             }
